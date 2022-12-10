@@ -31,7 +31,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  solid_lints: ^0.0.12
 
 dev_dependencies:
   build_runner: any
