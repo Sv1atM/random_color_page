@@ -402,7 +402,7 @@ packages:
     source: sdk
     version: "0.0.99"
   solid_lints:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       name: solid_lints
       url: "https://pub.dartlang.org"
