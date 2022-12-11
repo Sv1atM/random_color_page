@@ -13,12 +13,11 @@ class ColorGenerator {
 
   /// Returns new random [Color] value.
   Color generate() {
-    final alpha = _randomValue();
     final red = _randomValue();
     final green = _randomValue();
     final blue = _randomValue();
 
-    return Color.fromARGB(alpha, red, green, blue);
+    return Color.fromRGBO(red, green, blue, 1);
   }
 
   int _randomValue() => _random.nextInt(_max);
